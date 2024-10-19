@@ -19,3 +19,16 @@ body{
 a{
   color: #008000;
 }
+
+header{
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header, h1, vav ul{
+  padding: 50px:
+}
