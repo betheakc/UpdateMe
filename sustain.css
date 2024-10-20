@@ -10,11 +10,32 @@ body{
 }
 
 #content-wrapper{
+  display: flex;
   width: 90%;
   max-width: 12000px:
   margin-left: auto;
   margin-right: auto;
 }
+
+#content-wrapper aside {
+    background-color: #ccc;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    position: relative;
+    top: 20px; 
+    order: 1; 
+    flex: 1;
+}
+
+#content-wrapper aside h2 {
+    margin-top: 0;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+#content-wrapper main{
+  order:2;
+  flex: 4;
+} 
 
 a{
   color: #008000;
