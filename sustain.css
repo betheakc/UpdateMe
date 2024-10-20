@@ -102,7 +102,7 @@ main section div:last-child {
     margin-right: 0;
 }
 
-.h2center {
+#h2c {
     background-color: #008000;
     color: white;
     border-top-left-radius: 10px;
