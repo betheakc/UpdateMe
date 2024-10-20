@@ -29,7 +29,7 @@ body{
 
 #content-wrapper aside h2 {
     margin-top: 0;
-    white-space: nowrap; /* Prevent wrapping */
+    white-space: nowrap;
 }
 
 #content-wrapper main{
